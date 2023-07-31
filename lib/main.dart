@@ -38,10 +38,6 @@ class MyApp extends StatelessWidget {
             '/homeRoute': (context) => const HomeView(token: ""),
             '/bestsellerRoute': (context) =>
                 BestSellerView(contentList: [], title: "", token: ""),
-            //  '/bookDetailsRoute': (context) => BookDetailsView(
-            //      token: "",
-            //    content: null,
-            //),
           },
           theme: GTheme().gTheme,
           home: const SplashPage(token: ""),

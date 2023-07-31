@@ -30,6 +30,7 @@ class LoginService extends ILoginService {
       } else {
         return "Hata";
       }
+      // ignore: deprecated_member_use
     } on DioError catch (e) {
       final errorMessage = e.response?.data['message'] ?? 'Bir hata oluştu.';
       print(errorMessage);
