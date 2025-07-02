@@ -1,17 +1,52 @@
-# bookstore_flutter
+# Flutter BookStore
 
-A new Flutter project.
+Flutter BookStore, kitapları inceleyip satın alabileceğiniz modern ve çok platformlu bir kitap mağazası uygulamasıdır. Uygulama Flutter ile geliştirilmiştir ve Android, iOS, Web ve masaüstü platformlarını destekler.
 
-## Getting Started
+## Özellikler
+- Kitapları listeleme ve detaylarını görüntüleme
+- Kategorilere göre filtreleme
+- En çok satanlar bölümü
+- Kullanıcı girişi ve kayıt olma
+- Modern ve kullanıcı dostu arayüz
 
-This project is a starting point for a Flutter application.
+## Kurulum
 
-A few resources to get you started if this is your first Flutter project:
+### Gereksinimler
+- [Flutter](https://flutter.dev/docs/get-started/install) (en güncel stabil sürüm önerilir)
+- Android Studio veya VS Code (isteğe bağlı)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Adımlar
+1. Depoyu klonlayın:
+   ```sh
+   git clone <repo-link>
+   cd Flutter_BookStore-public
+   ```
+2. Bağımlılıkları yükleyin:
+   ```sh
+   flutter pub get
+   ```
+3. Uygulamayı başlatın:
+   - Android/iOS için:
+     ```sh
+     flutter run
+     ```
+   - Web için:
+     ```sh
+     flutter run -d chrome
+     ```
+   - Masaüstü için (örn. Windows):
+     ```sh
+     flutter run -d windows
+     ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Katkıda Bulunma
+Katkılarınızı memnuniyetle karşılıyoruz! Lütfen önce bir issue açın ve değişiklikleriniz için bir pull request gönderin.
+
+## Lisans
+Bu proje MIT lisansı ile lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakınız.
+
+---
+
+Herhangi bir sorunuz olursa lütfen iletişime geçin.
+
 "# BookStoreFlutter_Project" 
